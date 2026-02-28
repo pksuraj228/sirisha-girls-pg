@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sirisha Comforts | Premium Ladies PG</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<a href="https://wa.me/918123260143?text=Hello%20I%20am%20interested%20in%20Sirisha%20Comforts%20PG"
+class="whatsapp-float"
+target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+
+
+<body>
+
+<div id="bubble-container"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top premium-nav">
+<div class="container">
+<a class="navbar-brand">Sirisha Comforts</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navMenu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#facilities">Facilities</a></li>
+<li class="nav-item"><a class="nav-link" href="#rooms">Rooms</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="section hero text-center">
+<div class="container">
+<img src="main_building.jpg"
+class="hero-img img-fluid">
+
+<h1 class="hero-title mt-4">Premium Ladies PG in Vijayanagar</h1>
+<p class="hero-sub">
+Safe • Secure • Hygienic • Comfortable Living Near Attiguppe Metro
+</p>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+<div class="container text-center">
+
+<img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"
+class="about-img img-fluid">
+
+<h2 class="section-title mt-4">About Sirisha Comforts</h2>
+
+<p class="about-text">
+Sirisha Comforts is a professionally managed ladies PG located in the heart of Vijayanagar near Attiguppe Metro Station.
+We provide a secure and peaceful living space specially designed for working women and students.
+Our accommodation blends comfort, hygiene and modern amenities for a stress-free lifestyle.
+With biometric security, nutritious meals and uninterrupted power backup, safety is always our priority.
+Every room is well-ventilated, properly maintained and designed to ensure comfortable daily living.
+Our mission is to create a homely atmosphere where residents feel respected, supported and truly at home.
+</p>
+
+</div>
+</section>
+
+<!-- FACILITIES -->
+<section id="facilities" class="section light-bg">
+<div class="container text-center">
+
+<h2 class="section-title">Our Premium Facilities</h2>
+
+<div class="row g-4 mt-4">
+
+<!-- Card 1 -->
+<div class="col-lg-4 col-md-6">
+<div class="lux-card">
+<i class="fas fa-wifi card-icon"></i>
+<h5>High Speed WiFi</h5>
+<p>Reliable internet connectivity for work and study.</p>
+</div>
+</div>
+
+<!-- Card 2 -->
+<div class="col-lg-4 col-md-6">
+<div class="lux-card">
+<i class="fas fa-tint card-icon"></i>
+<h5>Hot Water</h5>
+<p>Hot water for comfort and convenience.</p>
+</div>
+</div>
+
+<!-- Card 3 -->
+<div class="col-lg-4 col-md-6">
+<div class="lux-card">
+<i class="fas fa-utensils card-icon"></i>
+<h5>3 Times Hygienic Food</h5>
+<p>Nutritious and freshly prepared meals daily.</p>
+</div>
+</div>
+
+<!-- Card 4 -->
+<div class="col-lg-4 col-md-6">
+<div class="lux-card">
+<i class="fas fa-fingerprint card-icon"></i>
+<h5>Biometric Security</h5>
+<p>Advanced access control for maximum safety.</p>
+</div>
+</div>
+
+<!-- Card 5 -->
+<div class="col-lg-4 col-md-6">
+<div class="lux-card">
+<i class="fas fa-tshirt card-icon"></i>
+<h5>Washing Machine</h5>
+<p>2 washing machines available.</p>
+</div>
+</div>
+
+<!-- Card 6 -->
+<div class="col-lg-4 col-md-6">
+<div class="lux-card">
+<i class="fas fa-battery-full card-icon"></i>
+<h5>UPS Battery</h5>
+<p>UPS backup for uninterrupted power supply</p>
+</div>
+</div>
+
+<!-- Card 7 -->
+<div class="col-lg-4 col-md-6">
+<div class="lux-card">
+<i class="fas fa-bath card-icon"></i>
+<h5>Attached Washroom</h5>
+<p>Attached washroom</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ROOM TYPES -->
+<section id="rooms" class="section">
+<div class="container text-center">
+
+<h2 class="section-title">Room Types</h2>
+
+<div class="row g-4 mt-4">
+
+<div class="col-lg-3 col-md-6 col-6">
+<div class="room-type-card active-type" onclick="filterRooms('all',this)">
+All Rooms
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 col-6">
+<div class="room-type-card" onclick="filterRooms('single',this)">
+Single Sharing
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 col-6">
+<div class="room-type-card" onclick="filterRooms('double',this)">
+2 Sharing
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 col-6">
+<div class="room-type-card" onclick="filterRooms('triple',this)">
+3 Sharing
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 col-6">
+<div class="room-type-card" onclick="filterRooms('quadruple',this)">
+4 Sharing
+</div>
+</div>
+
+</div>
+
+<!-- ROOM IMAGES -->
+
+<div class="row g-4 mt-5">
+
+<!-- 1 Single Private Room -->
+<div class="col-lg-4 col-md-6 room-item single">
+<div class="room-card">
+<img src="single_sharing_11.jpg" class="img-fluid">
+<p class="room-desc">Private single room with comfortable bed, study table and wardrobe for peaceful personal living.</p>
+</div>
+</div>
+
+<!-- 2 Double Sharing Room -->
+<div class="col-lg-4 col-md-6 room-item double">
+<div class="room-card">
+<img src="two_sharing_14.jpg" class="img-fluid">
+<p class="room-desc">Spacious double sharing room with two single beds and personal storage space.</p>
+</div>
+</div>
+
+<!-- 3 Triple Sharing Room -->
+<div class="col-lg-4 col-md-6 room-item triple">
+<div class="room-card">
+<img src="three_sharing_33.jpg" class="img-fluid">
+<p class="room-desc">Affordable triple sharing room designed with comfortable beds and natural ventilation.</p>
+</div>
+</div>
+
+<!-- 4 Bunk Bed Sharing -->
+<div class="col-lg-4 col-md-6 room-item quadruple">
+<div class="room-card">
+<img src="four_bunker_26.jpg" class="img-fluid">
+<p class="room-desc">Modern bunk bed sharing room ideal for budget friendly stay with smart storage.</p>
+</div>
+</div>
+
+<!-- 5 Premium Single Room -->
+<div class="col-lg-4 col-md-6 room-item single">
+<div class="room-card">
+<img src="single_sharing_21.jpg" class="img-fluid">
+<p class="room-desc">Premium single room with elegant interiors and peaceful private environment.</p>
+</div>
+</div>
+
+<!-- 6 Double Room with Study -->
+<div class="col-lg-4 col-md-6 room-item double">
+<div class="room-card">
+<img src="two_sharing_24.jpg" class="img-fluid">
+<p class="room-desc">Double sharing room with study table, wardrobe and comfortable bedding.</p>
+</div>
+</div>
+
+<!-- 7 Triple Student Room -->
+<div class="col-lg-4 col-md-6 room-item triple">
+<div class="room-card">
+<img src="three_sharing_23.jpg" class="img-fluid">
+<p class="room-desc">Student friendly triple sharing room with spacious layout and good ventilation.</p>
+</div>
+</div>
+
+<!-- 8 Bunk Bed Compact Room -->
+<div class="col-lg-4 col-md-6 room-item quadruple">
+<div class="room-card">
+<img src="four_bunker_16.jpg" class="img-fluid">
+<p class="room-desc">Compact bunk bed room with modern furniture and efficient space usage.</p>
+</div>
+</div>
+
+<!-- 9 Deluxe Double Room -->
+<div class="col-lg-4 col-md-6 room-item double">
+<div class="room-card">
+<img src="four_bunker_36.jpg" class="img-fluid">
+<p class="room-desc">Deluxe double sharing room designed with stylish interiors and cozy bedding.</p>
+</div>
+</div>
+
+<!-- 10 Budget Single Room -->
+<div class="col-lg-4 col-md-6 room-item single">
+<div class="room-card">
+<img src="single_sharing_31.jpg" class="img-fluid">
+<p class="room-desc">Budget friendly single room with comfortable bed and calm environment.</p>
+</div>
+</div>
+
+<!-- 11 Double Bed Sharing -->
+<div class="col-lg-4 col-md-6 room-item double">
+<div class="room-card">
+<img src="two_bunker_11.jpg" class="img-fluid">
+<p class="room-desc">Two bed sharing room designed with modern interiors and spacious layout.</p>
+</div>
+</div>
+
+<!-- 12 Triple Comfort Room -->
+<div class="col-lg-4 col-md-6 room-item triple">
+<div class="room-card">
+<img src="three_sharing_13.jpg" class="img-fluid">
+<p class="room-desc">Comfortable triple sharing room perfect for affordable and friendly living.</p>
+</div>
+</div>
+
+</div>
+
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="section light-bg py-5">
+<div class="container text-center">
+
+<h2 class="section-title mb-5">Contact Us</h2>
+
+<div class="row justify-content-center g-4">
+
+<!-- Contact Card 1 -->
+<div class="col-lg-4 col-md-6">
+<div class="contact-card p-4 text-start">
+
+<div class="contact-item">
+<a href="https://wa.me/918123260143" target="_blank">
+<i class="fab fa-whatsapp contact-icon text-success"></i>
+<span> Chat Now</span>
+</a>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-phone contact-icon text-primary"></i>
+<span> Call: +91-81232 60143</span>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-envelope contact-icon text-danger"></i>
+<span>Message: +91-81232 60143</span>
+</div>
+
+</div>
+</div>
+
+<!-- Contact Card 2 -->
+<div class="col-lg-4 col-md-6">
+<div class="contact-card p-4 text-start">
+
+<a href="https://wa.me/919000011111"
+class="whatsapp-float"
+target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+<div class="contact-item">
+<i class="fas fa-phone contact-icon text-primary"></i>
+<span>Call: +91-9019802138</span>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-envelope contact-icon text-danger"></i>
+<span>Message: +91-9019802138</span>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+```
+
+
+<footer class="footer text-center">
+© 2026 Sirisha Comforts
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
